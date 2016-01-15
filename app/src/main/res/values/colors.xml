@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0c539b</color>
+    <color name="colorPrimaryDark">#0c539b</color>
+    <color name="colorAccent">#31323c</color>
+    <color name="colorNegro">#0A0A0A </color>
+    <color name="backgroundBlanco">#ffffff</color>
+    <color name="backgroundGrisClaro">#c7c7c7</color>
+    <color name="backgroundActivities">#dffdcd</color>
+
+    <!-- Colores De Renglones -->
+
+    <color name="RenglonPar">#e2e1e1</color>
+    <color name="RenglonImpar">#dedcdc</color>
+    <color name="RenglonBlanco">#ffffff</color>
+
+
+    <!--  Otros Colores app -->
+
+    <color name="LetraNegra">#0A0A0A </color>
+    <color name="LetraBlanca">#ffffff</color>
+    <color name="LetraGrisClaro">#c7c7c7</color>
+    <color name="AzulApp">#0c539b</color>
+    <color name="GrisAlto">#31323c</color>
+    <color name="GrisBajo">#484848</color>
+    <color name="LetraGris">#5c5c5c</color>
+</resources>

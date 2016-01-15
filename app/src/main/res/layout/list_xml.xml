@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/Renglon">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+             android:layout_width="120px"
+            android:layout_height="120px"
+            android:id="@+id/ImagenCurso" />
+       </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/NombrCurso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NombredelCurso"
+            style="@style/FuenteTipoTitulo"
+            />
+
+        <TextView
+            android:id="@+id/DescripcionCurso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            style="@style/FuenteTipoDescripcion"/>
+
+        <TextView
+             android:id="@+id/txtNombredelArea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_MP_areas"
+            style="@style/FuenteNombredeArea"/>
+
+             </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+          android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/BarraDivision">
+
+        <TextView
+            style="@style/FuenteNombredeArea"
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

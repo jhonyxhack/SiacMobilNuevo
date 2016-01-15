@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Datos de Usuario">
+        <CheckBoxPreference
+            android:key="opcionWIFI"
+            android:title="Permitir solo con WIFI"
+            android:summary="Activa o desactiva el acceso solo con WIFI" />
+        <CheckBoxPreference
+            android:key="opcion1"
+            android:title="Sonido"
+            android:summary="Activa o desactiva el sonido" />
+        <EditTextPreference
+            android:key="opcion2"
+            android:title="Nombre de Usuario"
+            android:summary="Identifica al usuario de la aplicación"
+            android:dialogTitle="Introduce valor" />
+        <Preference
+            android:key="opcionNumeroVersion"
+            android:title="Version Instalada"
+            android:summary="Identifica el Numero de Versión instalada"
+             />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Datos de Paises">
+        <ListPreference
+            android:key="opcion3"
+            android:title="Pais"
+            android:summary="País del usuario"
+            android:dialogTitle="Indicar Pais"
+            android:entries="@array/pais"
+            android:entryValues="@array/codigopais" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

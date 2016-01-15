@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@drawable/folder"
+            android:title="@string/_MP_areas" />
+        <item android:id="@+id/nav_CursosGratuitos" android:icon="@drawable/icoon_start_gratis"
+            android:title="@string/_MP_cursosgratuitos" />
+        <item android:id="@+id/nav_gallery" android:icon="@drawable/mis_cursos"
+            android:title="@string/_MP_miscursos" />
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/icon_buscar_gris"
+            android:title="@string/_MP_buscarCurso" />
+         <item android:id="@+id/nav_manage" android:icon="@drawable/icono_nuevos_cursos"
+            android:title="@string/_MP_nuevosCursos" />
+    </group>
+
+    <item android:title="@string/_MP_Preferencias">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/icon_share"
+                android:title="@string/_MP_compartir" />
+            <item android:id="@+id/preferencias" android:icon="@drawable/icon_ajustes"
+                android:title="@string/_MP_configuracion" />
+            <item android:id="@+id/BotonIniciarSesion" android:icon="@drawable/login"
+                android:title="@string/_MP_iniciarsesion" />
+        </menu>
+    </item>
+
+</menu>

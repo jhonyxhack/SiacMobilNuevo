@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SAEC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Opciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="pais">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+    </string-array>
+    <string-array name="codigopais">
+        <item>ESP</item>
+        <item>FRA</item>
+        <item>ALE</item>
+    </string-array>
+
+    <!-- Elementos Nuevos del Menu -->
+
+    <string name="_MP_areas">Áreas de entrenamiento</string>
+    <string name="_MP_cursosgratuitos">Cursos gratuitos</string>
+    <string name="_MP_inicio">Inicio</string>
+    <string name="_MP_miscursos">Mis cursos</string>
+    <string name="_MP_buscarCurso">Buscar</string>
+    <string name="_MP_nuevosCursos">Nuevos cursos</string>
+    <string name="_MP_iniciarsesion">Iniciar sesión</string>
+    <string name="_MP_Cerrarsesion">Cerrar sesión</string>
+    <string name="_MP_compartir">Compartir</string>
+    <string name="_MP_configuracion">Configuración</string>
+    <string name="_MP_Preferencias">Preferencias</string>
+
+    <!-- Header -->
+
+    <string name="_Head_Bienvenido">Bienvenido</string>
+    <string name="_Head_empresa">email</string>
+
+
+    <!-- Activity Login -->
+    <string name="_srtEmail">Email</string>
+    <string name="_srtPassword">Password</string>
+    <string name="_strTitleIniciarSesion">Iniciar Sessión</string>
+    <string name="_srtBotonIniciarSesion">Iniciar</string>
+    <string name="_srtBotonRegistrarse">Registrarse</string>
+    <string name="Division"></string>
+
+    <!-- Mensajes de Confirmacion o Pregunta -->
+    <string name="DeseaSuscribirse">Aún no se encuentra suscrito a este curso. ¿Desea Suscribirse en este Momento?</string>
+    <string name="title_activity_explorador">Explorador</string>
+
+    <!-- Activity Registro -->
+    <string name="_strTitleRegistrarse">Registrarse en Tech-Inservice</string>
+    <string name="_srtReg_Nombre">Nombre Completo</string>
+    <string name="_srtReg_Email">Correo electrónico</string>
+    <string name="_srtReg_Password1">Password</string>
+    <string name="_srtReg_ConfirmarPassword">Confirmar Password</string>
+    <string name="_srtReg_Empresa">Empresa/Trabajo</string>
+     <string name="_srtReg_BotonRegistrarse">Registrarse</string>
+    <string name="_srtReg_BotonOlvideMipass">Recordar</string>
+
+</resources>

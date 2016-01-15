@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FuenteTipoTitulo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorNegro</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/FontSizeLarge</item>
+        <item name="android:textAllCaps">true</item>
+        <!-- <item name="android:background">#0C1A35</item> -->
+    </style>
+
+    <style name="FuenteTipoTituloBlanco" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/LetraBlanca</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/FontSizeLarge</item>
+        <item name="android:textAllCaps">true</item>
+        <!-- <item name="android:background">#0C1A35</item> -->
+    </style>
+
+    <style name="FuenteTipoDescripcion" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorNegro</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/FontSizeMedium</item>
+        <!-- <item name="android:background">#0C1A35</item> -->
+    </style>
+
+    <style name="FuenteTitulos" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/LetraBlanca</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:background">@color/GrisAlto</item>
+        <item name="android:textSize">@dimen/FontSizeXLarge</item>
+        <item name="android:height">50dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!-- <item name="android:background">#0C1A35</item> -->
+
+    </style>
+
+    <style name="FuenteNombredeArea" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/LetraGrisClaro</item>
+        <item name="android:typeface">normal</item>
+         <item name="android:textSize">@dimen/FontSizeSmall</item>
+        <item name="android:gravity">center_vertical|right</item>
+
+
+    </style>
+
+    <style name="textodivision" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/backgroundGrisClaro</item>
+        <item name="android:typeface">normal</item>
+        <!-- <item name="android:background"></item>-->
+        <item name="android:textSize">@dimen/FontSizeXLarge</item>
+        <item name="android:height">30dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!-- <item name="android:background">#0C1A35</item> -->
+    </style>
+
+    <style name="BarraDivision" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:background">@color/backgroundGrisClaro</item>
+        <item name="android:textSize">@dimen/FontSizeXLarge</item>
+        <item name="android:height">10dp</item>
+    </style>
+
+    <style name="Style_Buttons" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/LetraBlanca</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/FontSizeLarge</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/button_green</item>
+     <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+
+
+    </style>
+</resources>

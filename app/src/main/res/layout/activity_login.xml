@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/FuenteTitulos">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView2"
+                android:src="@drawable/logo_tech" />
+
+            <TextView
+                android:id="@+id/TitulIniciar1"
+                style="@style/FuenteTitulos"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/_strTitleIniciarSesion"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/textodivision"
+            android:layout_width="fill_parent"
+            android:id="@+id/textView3"
+            android:layout_height="fill_parent"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <!-- Email -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/_srtEmail"
+            android:id="@+id/textView2"
+            style="@style/FuenteTipoTituloBlanco"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+             style="@style/FuenteTipoTituloBlanco"
+            android:id="@+id/txt_email" />
+    </LinearLayout>
+
+    <!--Password -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/_srtPassword"
+            android:id="@+id/textView"
+            style="@style/FuenteTipoTituloBlanco"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_password"
+            style="@style/FuenteTipoTituloBlanco"
+            />
+        <TextView
+            android:id="@+id/textView44"
+            style="@style/textodivision"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_srtBotonIniciarSesion"
+            android:id="@+id/boton_iniciar"
+            android:layout_weight="1"
+            style="@style/Style_Buttons"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_srtBotonRegistrarse"
+            android:id="@+id/boton_registrarse"
+            android:layout_weight="1"
+            style="@style/Style_Buttons"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_srtReg_BotonOlvideMipass"
+            android:id="@+id/boton_OlvideMipassword"
+            android:layout_weight="1"
+            style="@style/Style_Buttons"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
